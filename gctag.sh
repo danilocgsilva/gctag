@@ -5,12 +5,12 @@ VERSION="0.0.1"
 
 gctag () {
 
-    if [ -z $1 ]; then
+    if [ -z "$1" ]; then
         echo "You must provides the first argument to be the tag label. Usually, is the program version."
         return 1
     fi
 
-    if [ -z $2 ]; then
+    if [ -z "$2" ]; then
         echo "You must provides the second argument to be the commit and tag statement."
         return 1
     fi
