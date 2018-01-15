@@ -1,0 +1,7 @@
+{
+    "name": "gctag",
+    "version": "0.0.1",
+    "description": "Commits and tag the code in a single line.",
+    "scripts": [ "gctag.sh" ],
+    "install": "make install"
+}
